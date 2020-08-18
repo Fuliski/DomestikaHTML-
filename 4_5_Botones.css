@@ -1,0 +1,53 @@
+body{
+  font-family:sans-serif;
+  background-color: royalblue;
+}
+#titulo{
+  background-color:#4682B4;
+  padding:0.1em;
+}
+#caja_botones {
+  width:30%;
+  padding:0.5em;
+  background-color: rgb(255,250,250);
+  color: hsla(119, 100%, 50%, 0.90);
+  text-align: center;
+}
+.boton{
+  width:50%;
+  margin:auto;
+  padding:0.5em;
+}
+.boton:first-child {
+background-color:#FFA500;
+ color:black;
+}
+.boton:nth-child(3){
+  width:30%;
+  background-color:rgb(46,139,87);
+  color:black;
+  box-shadow:5px 2px 1px rgb(46,139,100)
+}
+ .boton:nth-child(5){
+  width:30%;
+  background-color:darkred;
+  color:white;
+  box-shadow:5px 5px 2px darkred;
+}
+
+.boton:nth-child(7){
+  width:30%;
+  background-color:hsl(189,10%,80%,1);
+  color:black;
+}
+
+.boton:nth-child(9){
+  width:auto;
+  background-color:hsla(126, 74%, 50%, 0.9);
+  color:black;
+}
+.boton:nth-child(11){
+  width:30%;
+  background-color:rgba(219, 222, 33, 0.72);
+  color:black;
+}
